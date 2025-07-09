@@ -7,7 +7,7 @@ const speakingImg = "https://images.pexels.com/photos/3183197/pexels-photo-31831
 const confidenceImg = "https://images.unsplash.com/photo-1588702547919-26089e690ecc";
 
 const SpokenEnglish = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  
 
   return (
     <div className="bg-white text-gray-800">

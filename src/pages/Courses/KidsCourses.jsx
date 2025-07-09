@@ -7,7 +7,7 @@ const classImg = 'https://images.pexels.com/photos/8613079/pexels-photo-8613079.
 const happyImg = 'https://images.pexels.com/photos/8613087/pexels-photo-8613087.jpeg';
 
 const KidsCourses = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  
   return (
     <div className="bg-white text-gray-800">
       {/* Hero */}

@@ -7,7 +7,7 @@ const engageImg = 'https://images.pexels.com/photos/5212334/pexels-photo-5212334
 const onlineImg = 'https://images.pexels.com/photos/4145192/pexels-photo-4145192.jpeg';
 
 const TeachersTraining = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  
   return (
     <div className="bg-white text-gray-800">
       {/* Hero */}

@@ -7,7 +7,7 @@ const speakingImg = 'https://images.pexels.com/photos/7413913/pexels-photo-74139
 const confidenceImg = 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg';
 
 const PersonalityDevelopment = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  
 
   return (
     <div className="bg-white text-gray-800">

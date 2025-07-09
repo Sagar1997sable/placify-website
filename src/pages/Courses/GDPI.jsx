@@ -7,7 +7,7 @@ const gdImg = 'https://images.pexels.com/photos/1181395/pexels-photo-1181395.jpe
 const piImg = 'https://images.pexels.com/photos/1181332/pexels-photo-1181332.jpeg';
 
 const GDPI = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  
 
   return (
     <div className="bg-white text-gray-800">

@@ -6,7 +6,7 @@ const teamImg = 'https://images.pexels.com/photos/3182763/pexels-photo-3182763.j
 const leadershipImg = 'https://images.pexels.com/photos/3153198/pexels-photo-3153198.jpeg';
 
 const CorporateTraining = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+ 
   return (
     <div className="bg-white text-gray-800">
       {/* Hero */}
@@ -89,7 +89,7 @@ const CorporateTraining = () => {
           Book a Free Demo
         </Link>
       </section>
-      
+
     </div>
   );
 };
