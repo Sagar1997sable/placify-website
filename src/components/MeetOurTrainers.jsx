@@ -5,16 +5,19 @@ import soniaImg from '../assets/Sonia_awasthi.jpg';
 import ajayImg from '../assets/Ajay Thakur.jpg';
 
 const trainers = [
-  {
-    name: 'Anshul Saxena',
-    description: 'Experienced Aptitude Trainer with 8+ years mentoring 30,000+ students in Quant, Reasoning, Verbal Ability, and Soft Skills.',
-    image: anshulImg,
-  },
+  
   {
     name: 'Hitendra Singh Parihar',
     description: "Soft Skills Trainer with 6+ years' experience delivering impactful, customized learning in communication, leadership, and team collaboration.",
     image: hitendraImg,
   },
+
+  {
+    name: 'Anshul Saxena',
+    description: 'Experienced Aptitude Trainer with 8+ years mentoring 30,000+ students in Quant, Reasoning, Verbal Ability, and Soft Skills.',
+    image: anshulImg,
+  },
+  
   {
     name: 'Sonia Awasthi',
     description: "Freelance trainer with 12+ years' experience in soft skills, communication, interview prep, and leadership training.",
@@ -41,7 +44,7 @@ const MeetOurTrainers = () => {
             <img
               src={trainer.image}
               alt={trainer.name}
-              className="w-full h-64 object-cover"
+              className="w-full h-72 object-contain rounded-t-lg"
             />
             <div className="p-5 flex flex-col justify-between flex-1">
               <h3 className="text-lg font-bold text-gray-800 mb-1">{trainer.name}</h3>

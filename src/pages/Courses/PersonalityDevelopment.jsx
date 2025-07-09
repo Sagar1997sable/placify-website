@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import BookDemoModal from '../../components/BookDemoModal';
+import { Link } from 'react-router-dom';
+
 
 const bannerImg = 'https://images.pexels.com/photos/4344860/pexels-photo-4344860.jpeg';
 const speakingImg = 'https://images.pexels.com/photos/7413913/pexels-photo-7413913.jpeg';
@@ -18,12 +19,12 @@ const PersonalityDevelopment = () => {
             <p className="text-lg text-gray-600 mb-6">
               Build confidence, communication, and leadership with our expertly designed Personality Development course.
             </p>
-            <button
-              onClick={() => setIsModalOpen(true)}
+            <Link
+              to="/?course=Personality%20Development"
               className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-800 transition"
             >
               Book a Free Demo
-            </button>
+            </Link>
           </div>
           <div className="flex-1">
             <img src={bannerImg} alt="Personality Banner" className="rounded-xl shadow-lg" />
@@ -83,20 +84,15 @@ const PersonalityDevelopment = () => {
         <h3 className="text-2xl font-semibold text-blue-800 mb-4">
           Want to improve your communication and confidence?
         </h3>
-        <button
-          onClick={() => setIsModalOpen(true)}
-          className="inline-block bg-blue-700 text-white px-8 py-3 rounded-full text-lg font-semibold shadow hover:bg-blue-800 transition"
-        >
-          Join the Free Demo Now
-        </button>
+        <Link
+              to="/?course=Personality%20Development"
+              className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-800 transition"
+            >
+              Book the Free Demo Now
+            </Link>
       </section>
 
-      {/* Modal */}
-      <BookDemoModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-        courseName="Personality Development"
-      />
+      
     </div>
   );
 };

@@ -7,6 +7,7 @@ const Courses = () => (
     <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
       <li><Link className="block bg-gray-100 p-3 rounded shadow hover:bg-gray-200" to="/courses/spoken-english">Spoken English—Basic</Link></li>
       <li><Link className="block bg-gray-100 p-3 rounded shadow hover:bg-gray-200" to="/courses/personality-development">Personality Development</Link></li>
+      <li><Link className="block bg-gray-100 p-3 rounded shadow hover:bg-gray-200" to="/courses/aptitude-training">Aptitude Training</Link></li>
       <li><Link className="block bg-gray-100 p-3 rounded shadow hover:bg-gray-200" to="/courses/corporate-training">Corporate Training</Link></li>
       <li><Link className="block bg-gray-100 p-3 rounded shadow hover:bg-gray-200" to="/courses/gdpi">GD & PI Preparation</Link></li>
       <li><Link className="block bg-gray-100 p-3 rounded shadow hover:bg-gray-200" to="/courses/teachers-training">Teacher’s Training</Link></li>

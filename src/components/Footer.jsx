@@ -8,7 +8,7 @@ import {
   FaPhoneAlt,
   FaEnvelope,
 } from 'react-icons/fa';
-import logo from '../assets/logo.png'; // Replace with your logo path
+import logo from '../assets/NewLogo.jpg'; // Replace with your logo path
 
 const Footer = () => {
   return (
@@ -31,8 +31,7 @@ const Footer = () => {
             <li><a href="/" className="hover:text-yellow-300">Home</a></li>
             <li><a href="/about-us" className="hover:text-yellow-300">About Us</a></li>
             <li><a href="/courses" className="hover:text-yellow-300">Courses</a></li>
-            <li><a href="/gallery" className="hover:text-yellow-300">Gallery</a></li>
-            <li><a href="/contact" className="hover:text-yellow-300">Contact</a></li>
+            
           </ul>
         </div>
 
@@ -46,7 +45,7 @@ const Footer = () => {
             <FaPhoneAlt /> +91 7566513585
           </li>
           <li className="flex items-center gap-2">
-            <FaEnvelope /> hello@placifyinstitue.com
+            <FaEnvelope /> info@placifyinstitue.com
           </li>
           <li className="flex items-center gap-2">
             <a

@@ -26,6 +26,10 @@ const courses = [
     title: 'Kids Courses',
     description: 'Fun and engaging learning for kids to build strong language foundations.',
   },
+  {
+    title: 'Aptitude Training',
+    description: 'Sharpen problem-solving, logical reasoning, and quantitative skills for exams and placements.',
+  },
 ];
 
 const CoursesSection = () => {

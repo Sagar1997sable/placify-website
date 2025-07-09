@@ -2,17 +2,19 @@ import React from 'react';
 
 const team = [
   {
-    name: 'Anshul Saxena',
-    role: 'Aptitude Trainer',
-    desc: 'Expert in Quant, Reasoning, Verbal Ability with 8+ years mentoring 30,000+ students.',
-    img: require('../../assets/Anshul.jpg'),
-  },
-  {
     name: 'Hitendra Singh Parihar',
     role: 'Soft Skills Trainer',
     desc: '6+ years of delivering impactful communication and leadership training.',
     img: require('../../assets/hitendra_singh.jpg'),
   },
+  
+  {
+    name: 'Anshul Saxena',
+    role: 'Aptitude Trainer',
+    desc: 'Expert in Quant, Reasoning, Verbal Ability with 8+ years mentoring 30,000+ students.',
+    img: require('../../assets/Anshul.jpg'),
+  },
+  
   {
     name: 'Sonia Awasthi',
     role: 'Personality Coach',

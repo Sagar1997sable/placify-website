@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import BookDemoModal from '../../components/BookDemoModal';
+import { Link } from 'react-router-dom';
+
 
 const bannerImg = 'https://images.pexels.com/photos/8617726/pexels-photo-8617726.jpeg';
 const engageImg = 'https://images.pexels.com/photos/5212334/pexels-photo-5212334.jpeg';
@@ -17,12 +18,12 @@ const TeachersTraining = () => {
             <p className="text-lg text-gray-600 mb-6">
               Learn modern teaching strategies, classroom management, and educational technology to become a confident, effective educator.
             </p>
-             <button
-              onClick={() => setIsModalOpen(true)}
+             <Link
+              to="/?course=Teachers%20Training"
               className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-800 transition"
             >
               Book a Free Demo
-            </button>
+            </Link>
           </div>
           <div className="flex-1">
             <img src={bannerImg} alt="Teacher's Training Banner" className="rounded-xl shadow-lg" />
@@ -82,18 +83,14 @@ const TeachersTraining = () => {
         <h3 className="text-2xl font-semibold text-blue-800 mb-4">
           Ready to shape the future as a 21st-century educator?
         </h3>
-        <button
-          onClick={() => setIsModalOpen(true)}
-          className="inline-block bg-blue-700 text-white px-8 py-3 rounded-full text-lg font-semibold shadow hover:bg-blue-800 transition"
-        >
-          Book Your Free Demo
-        </button>
+        <Link
+              to="/?course=Teachers%20Training"
+              className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-800 transition"
+            >
+              Book Your Free Demo
+            </Link>
       </section>
-      <BookDemoModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-        courseName="Teacher's Training"
-      />
+      
 
     </div>
   );

@@ -20,6 +20,10 @@ import OurTeam from './pages/about/OurTeam.jsx';
 import VisionMission from './pages/about/VisionMission.jsx';
 import Testimonials from './pages/about/Testimonials.jsx';
 import ScrollToTop from './components/ScrollToTop';
+import AptitudeTraining from './pages/Courses/AptitudeTraining';
+import WhatMakesUsDifferent from './pages/about/WhatMakesUsDifferent';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const App = () => {
@@ -34,7 +38,7 @@ const App = () => {
           <Route path="/book-demo" element={<BookDemo />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/trainers" element={<Trainers />} />
-          <Route path="/about" element={<AboutUs />} />
+          <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/courses/spoken-english" element={<SpokenEnglish />} />
           <Route path="/courses/personality-development" element={<PersonalityDevelopment />} />
@@ -46,9 +50,23 @@ const App = () => {
           <Route path="/about/our-team" element={<OurTeam />} />
           <Route path="/about/vision-&-mission" element={<VisionMission />} />
           <Route path="/about/testimonials" element={<Testimonials />} />
+          <Route path="/courses/aptitude-training" element={<AptitudeTraining />} />
+          <Route path="/about/what-makes-us-different" element={<WhatMakesUsDifferent />} />
+
         </Routes>
       </main>
       <Footer />
+
+      <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        hideProgressBar={true} // ✅ cleaner look like your screenshot
+        closeOnClick
+        pauseOnHover
+        draggable
+        newestOnTop={true}     // ✅ shows new toast above older ones
+        theme="light"
+      />
     </div>
   );
 };
