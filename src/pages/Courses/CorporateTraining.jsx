@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const bannerImg = 'https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg';
