@@ -42,7 +42,12 @@ const HeroSection = () => {
       }
     );
 
-    emailjs.sendForm('service_ult3bgp', 'template_8n00gt6', form.current, 'LXNja3-ytcDSOIlTr')
+    emailjs.sendForm(
+        'service_ult3bgp',      // e.g. 'placify_smtp'
+        'template_8n00gt6',     // e.g. 'template_abc123'
+        form.current,
+        'LXNja3-ytcDSOIlTr'       // e.g. 'B3lG1xxxxxxxxx'
+      )
       .then(() => {
         // Update to success toast
         toast.update(loadingToast, {
